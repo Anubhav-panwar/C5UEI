@@ -120,7 +120,7 @@
             </section>
             <!-- /.Section-break-page -->
            <!-- Section-case-study-02-->
-         <!----   <section class="s-case-study-02 catalog-courses">
+         <section class="s-case-study-02 catalog-courses">
                 <div class="tf-container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                 </div>
-            </section>-----><!-- /.Section-case-study-01 -->
+            </section><!-- /.Section-case-study-01 -->
 <!-- Section-our-saylo -->
 <section class="s-our-saylo tf-spacing-1 gap-purpose program-section">
     <div class="tf-container">
@@ -367,7 +367,7 @@
 
 
 
-<!--                          <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                             <div class="wg-pricing ">
                                
                                 <div class="price-wrap mb-20">
@@ -389,9 +389,9 @@
                                 </a>
                                 
                             </div>
-                        </div>  -->
+                        </div>  
 
-<!--                         <div class="col-lg-4 col-md-6">
+                     <div class="col-lg-4 col-md-6">
                            <div class="wg-pricing style-2 ">
                        <div class="price-wrap mb-20">
 									<img src="https://byteved.com/wp-content/uploads/2025/06/o_1itbre8d1hg1s0bmjt12b25m6r.avif" class="plan-img">
@@ -811,7 +811,7 @@ Organizational Structure</li>
                 </section>
            
 
-    <!-----     <section class="entity-tabs-section what-tab">
+     <section class="entity-tabs-section what-tab">
   <div class="row">
     <div class="col-lg-12">
       <div class="heading mb-30">

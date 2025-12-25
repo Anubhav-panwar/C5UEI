@@ -231,14 +231,182 @@ We will send you: Admissions Assessment to <br>determine if you have the Mindset
       </ul>
     </div>
 
+
+    <style>
+        /* =========================
+   Admissions Section Layout
+========================= */
+.saylo-admissions{
+  padding: 70px 0;
+  background: #f6f9fc; /* light section bg like screenshot */
+}
+
+.saylo-admissions .container{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.saylo-admissions .content{
+  flex: 1;
+  min-width: 0;
+}
+
+.saylo-admissions .content h2{
+  font-size: clamp(34px, 4vw, 54px);
+  line-height: 1.05;
+  font-weight: 900;
+  color: #0a2a43;
+  margin: 0 0 14px;
+}
+
+.saylo-admissions .content p{
+  margin: 0 0 10px;
+  color: #556575;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.saylo-admissions .link-cta{
+  font-weight: 800;
+  color: #0a2a43;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(10,42,67,.25);
+}
+.saylo-admissions .link-cta:hover{
+  border-bottom-color: rgba(10,42,67,.6);
+}
+
+/* Left list styles */
+.saylo-admissions .adm-adm{
+  margin: 18px 0 10px;
+  font-size: 34px;
+  line-height: 1.1;
+  font-weight: 900;
+  color: #0a2a43;
+}
+
+.saylo-admissions .process-list{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+.saylo-admissions .process-list li{
+  margin: 10px 0;
+}
+.saylo-admissions .process-list a{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  color: #0a2a43;
+  text-decoration: none;
+}
+.saylo-admissions .process-list i{
+  font-size: 14px;
+}
+
+/* =========================
+   Right CTA Panel (red box)
+========================= */
+.saylo-admissions .cta-panel{
+  width: 340px;              /* close to screenshot */
+  background: #062b4a;       /* deep navy */
+  border-radius: 12px;
+  padding: 26px 22px;
+  box-shadow: 0 16px 34px rgba(2, 6, 23, 0.18);
+  position: relative;
+}
+
+.saylo-admissions .cta-panel h4{
+  margin: 0 0 16px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.saylo-admissions .cta-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+/* White pill buttons */
+.saylo-admissions .cta-list a{
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #0a2a43;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1;
+  box-shadow: 0 10px 20px rgba(2, 6, 23, 0.10);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.saylo-admissions .cta-list a:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 14px 26px rgba(2, 6, 23, 0.14);
+}
+
+/* Arrow icon like screenshot */
+.saylo-admissions .cta-list a .fa-arrow-right{
+  font-size: 18px;
+  color: #0a2a43;
+}
+
+/* external link icon to the far right */
+.saylo-admissions .cta-list a .link-icon{
+  margin-left: auto;
+  font-size: 13px;
+  opacity: .9;
+}
+
+/* Make "Schedule Admissions Call" wrap like screenshot */
+.saylo-admissions .cta-list a{
+  white-space: normal;
+}
+.saylo-admissions .cta-list a:last-child{
+  line-height: 1.05;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 992px){
+  .saylo-admissions .container{
+    flex-direction: column;
+  }
+  .saylo-admissions .cta-panel{
+    width: 100%;
+    max-width: 420px;
+  }
+}
+
+    </style>
     <div class="cta-panel">
       <h4>Take the Next Step</h4>
       <ul class="cta-list">
         <li><a href="https://byteved.com/consultanting/"><i class="fas fa-arrow-right"></i> Request Info</a></li>
         <li><a href="https://byteved.com/programs/"><i class="fas fa-arrow-right"></i> Apply Now <i class="fas fa-external-link-alt link-icon"></i></a></li>
-<!--         <li><a href="#"><i class="fas fa-arrow-right"></i> Call +1 (858) 325-9320
- </a></li> -->
-        <li><a href="https://byteved.com/contact/"><i class="fas fa-arrow-right"></i> Schedule Admissions Call <i class="fas fa-external-link-alt link-icon"></i></a></li>
+
+<li>
+  <a href="https://byteved.com/contact/">
+    <i class="fas fa-arrow-right"></i>
+    <span>Schedule<br>Admissions Call</span>
+    <i class="fas fa-external-link-alt link-icon"></i>
+  </a>
+</li>
       </ul>
     </div>
   </div>

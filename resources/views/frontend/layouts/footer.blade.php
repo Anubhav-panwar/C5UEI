@@ -104,6 +104,18 @@
 <script src="{{ asset('assets/js/main.js') }}"></script>
 
 <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.querySelector(".footer-go-top");
+    if (!btn) return;
+
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+</script>
+
+<script>
   // Accordion: auto close others
   document.addEventListener('click', function () {
     document.querySelectorAll('.accordion-button').forEach(btn => {

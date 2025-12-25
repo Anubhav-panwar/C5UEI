@@ -22,3 +22,4 @@ Route::get('/terms-and-conditions', [FrontendController::class, 'termsAndConditi
 Route::get('/result-dreamer', [FrontendController::class, 'resultDreamer'])->name('resultDreamer');
 Route::get('/result-doer', [FrontendController::class, 'resultDoer'])->name('resultDoer');
 Route::get('/result-builder', [FrontendController::class, 'resultBuilder'])->name('resultBuilder');
+Route::get('/blog', [FrontendController::class, 'blog'])->name('blog');

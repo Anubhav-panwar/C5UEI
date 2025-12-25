@@ -19,11 +19,13 @@
           <div class="header-center">
             <nav class="main-nav">
               <ul class="nav-list">
-                <li class="menu-item"><a href="{{ url('/') }}">Home</a></li>
-                <li class="menu-item"><a href="{{ url('/about') }}">About</a></li>
-                <li class="menu-item"><a href="{{ url('/programs') }}">Programs</a></li>
-                <li class="menu-item"><a href="{{ url('/admissions') }}">Admissions</a></li>
-                <li class="menu-item"><a href="{{ url('/contact') }}">Contact</a></li>
+                <li class="menu-item"><a href="{{ url('/') }}">HOME</a></li>
+                <li class="menu-item"><a href="{{ url('/programs') }}">PROGRAMS</a></li>
+                <li class="menu-item"><a href="{{ url('/admissions') }}">ADMISSIONS</a></li>
+                <li class="menu-item"><a href="{{ url('/blog') }}">STUDENT EXPERIENCE</a></li>
+
+                <li class="menu-item"><a href="{{ url('/about') }}">ABOUT US</a></li>
+                <li class="menu-item"><a href="{{ url('/contact') }}">CONTACT</a></li>
               </ul>
             </nav>
           </div>
@@ -66,9 +68,10 @@
               <nav id="mobile-main-nav" class="mobile-main-nav">
                 <ul id="menu-mobile-menu" class="menu">
                   <li class="menu-item"><a class="item-menu-mobile" href="{{ url('/') }}">HOME</a></li>
-                  <li class="menu-item"><a class="item-menu-mobile" href="{{ url('/about') }}">ABOUT</a></li>
                   <li class="menu-item"><a class="item-menu-mobile" href="{{ url('/programs') }}">PROGRAMS</a></li>
                   <li class="menu-item"><a class="item-menu-mobile" href="{{ url('/admissions') }}">ADMISSIONS</a></li>
+                  <li class="menu-item"><a class="item-menu-mobile" href="{{ url('/blog') }}">STUDENT EXPERIENCE</a></li>
+                  <li class="menu-item"><a class="item-menu-mobile" href="{{ url('/about') }}">ABOUT</a></li>
                   <li class="menu-item"><a class="item-menu-mobile" href="{{ url('/contact') }}">CONTACT</a></li>
                 </ul>
               </nav>
