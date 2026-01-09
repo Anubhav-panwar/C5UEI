@@ -32,8 +32,8 @@
 
           <div class="header-right">
             <div class="user-login-icon" id="userIcon">
-              <a href="#" aria-label="User">
-                <i class="fa fa-user"></i>
+              <a href="/profile" aria-label="User">
+                <i style="color:white;" class="fa fa-user"></i>
               </a>
             </div>
 

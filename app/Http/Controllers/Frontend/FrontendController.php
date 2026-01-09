@@ -106,4 +106,14 @@ class FrontendController extends Controller
     {
         return view('frontend.pages.result-builder');
     }
+
+    public function profile()
+    {
+        return view('frontend.pages.profile');
+    }
+      public function student()
+    {
+        return view('frontend.student.home');
+    }
+
 }

@@ -23,3 +23,5 @@ Route::get('/result-dreamer', [FrontendController::class, 'resultDreamer'])->nam
 Route::get('/result-doer', [FrontendController::class, 'resultDoer'])->name('resultDoer');
 Route::get('/result-builder', [FrontendController::class, 'resultBuilder'])->name('resultBuilder');
 Route::get('/blog', [FrontendController::class, 'blog'])->name('blog');
+Route::get('/profile', [FrontendController::class, 'profile'])->name('profile');
+Route::get('/student-home', [FrontendController::class, 'student'])->name('student.home');
